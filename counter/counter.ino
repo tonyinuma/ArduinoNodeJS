@@ -16,5 +16,5 @@ void loop() {
   tempC = (5.0 * tempC * 100.0)/1024.0;
   Serial.print(tempC);
   Serial.print("\n");
-  delay(1000);
+  delay(10000);
 }
